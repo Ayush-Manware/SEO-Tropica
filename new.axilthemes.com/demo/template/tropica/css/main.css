@@ -227,6 +227,11 @@ Date Created: January 29, 2018
 
 /* -- Basic Styling
 ----------------------------------- -- */
+
+.bold{
+  font-weight: 800;
+}
+
 html {
   position: relative;
   z-index: -9999999999;
@@ -2036,6 +2041,7 @@ input[type=file] {
 }
 .tab-container .tab-content .tab-pane {
   width: 100%;
+  margin: 4vw auto;
 }
 .tab-container .tab-content .tab-pane .text-content h3 {
   margin-bottom: 2rem;
