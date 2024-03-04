@@ -249,6 +249,11 @@ Date Created: January 29, 2018
   padding: 1vw;
 }
 
+.h1center{
+  text-align: center
+}
+
+
 /* Slider----------------------------------------------------------- */
 
 .project-slider {
@@ -5131,3 +5136,12 @@ article.blog-item .primary-btn {
 /* -- moz hacks -- */
 
 /*# sourceMappingURL=main.css.map */
+.circle-image{
+  /* border-radius: 50%; */
+  clip-path: circle(50% at center);
+}
+
+.space{
+  padding: 2vw;
+  margin-bottom: 2vw;
+}
