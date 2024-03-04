@@ -5138,10 +5138,11 @@ article.blog-item .primary-btn {
 /*# sourceMappingURL=main.css.map */
 .circle-image{
   /* border-radius: 50%; */
-  clip-path: circle(50% at center);
+  clip-path: circle(60% at center);
 }
 
 .space{
   padding: 2vw;
   margin-bottom: 2vw;
 }
+
