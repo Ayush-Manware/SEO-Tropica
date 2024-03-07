@@ -5140,6 +5140,14 @@ article.blog-item .primary-btn {
   /* border-radius: 50%; */
   clip-path: circle(60% at center);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.536);
+  margin: 1vw auto; 
+}
+
+.ux-circle-image{
+  /* border-radius: 50%; */
+  clip-path: circle(80% at center);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.536);
+  margin: 1vw auto; 
 }
 
 .space{
