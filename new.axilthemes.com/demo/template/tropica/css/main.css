@@ -5162,3 +5162,7 @@ article.blog-item .primary-btn {
   margin-bottom: 2vw;
 }
 
+.justify{
+  text-align: justify;
+  margin: 1vw 0vw;
+}
