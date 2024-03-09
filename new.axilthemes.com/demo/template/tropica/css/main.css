@@ -5166,3 +5166,15 @@ article.blog-item .primary-btn {
   text-align: justify;
   margin: 1vw 0vw;
 }
+
+.margin-up-down{
+  margin: 3vw auto;
+}
+
+.margin-up-down-li{
+  margin: 0.5vw auto;
+}
+
+.list-style{
+  list-style-type: square;
+}
