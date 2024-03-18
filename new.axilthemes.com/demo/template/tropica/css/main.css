@@ -5207,3 +5207,21 @@ article.blog-item .primary-btn {
   background-color: #c6c6c6;
   border-radius: 5px;
 }
+
+.get-service-button{
+  background-color: #0677b4;
+  font-size: 1.8vw;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  color: white;
+  padding: 0.3vw 1vw;
+}
+
+.get-service-button:hover{
+  background-color: transparent;
+  color: #0677b4;
+}
+
+.right{
+  text-align: right;
+}
