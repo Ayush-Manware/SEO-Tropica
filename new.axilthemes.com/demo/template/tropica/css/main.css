@@ -537,6 +537,7 @@ button,
 }
 
 @media (min-width: 1200px) {
+
   .container {
     max-width: 1170px;
   }
@@ -5229,3 +5230,4 @@ article.blog-item .primary-btn {
 .blue{
   color: #0677b4;
 }
+

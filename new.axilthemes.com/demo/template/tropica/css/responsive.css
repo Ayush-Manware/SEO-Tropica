@@ -243,6 +243,7 @@
   }
 }
 @media screen and (max-width: 991px) {
+  
   html {
     font-size: 8px;
   }
@@ -1250,6 +1251,10 @@
   }
 }
 @media screen and (max-width: 330px) {
+  .get-service-button{
+    font-size: 8vw;
+    padding: 0.3vw 4vw;
+  }
   .banner .banner-slider .search-content .search-box-container {
     top: 19px;
   }
