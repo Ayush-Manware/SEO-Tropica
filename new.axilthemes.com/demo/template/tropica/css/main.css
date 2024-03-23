@@ -5231,3 +5231,17 @@ article.blog-item .primary-btn {
   color: #0677b4;
 }
 
+.image-gap{
+  margin: 0.5vw auto;
+  transition: all 0.2s linear;
+}
+
+.image-gap:hover{
+  filter: sepia(1);
+}
+
+.get-design{
+  font-size: 2vw;
+  text-align: center;
+  letter-spacing: 1px;
+}
