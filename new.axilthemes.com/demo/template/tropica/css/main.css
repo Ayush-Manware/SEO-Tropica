@@ -5245,3 +5245,7 @@ article.blog-item .primary-btn {
   text-align: center;
   letter-spacing: 1px;
 }
+
+.image-bottom-margin {
+  margin: 1vw auto;
+}
