@@ -851,6 +851,14 @@
 
   .customer-review .carousel-container .carousel-inner .item .review-content {
     margin-bottom: 5rem;
+    display: inline-table;
+  }
+
+  .get-service-button{
+    font-size: 6vw;
+    padding: 4vw 0vw;
+    width:100%;
+    text-align: center;
   }
 
   .awards .carousel-container .carousel-inner {
