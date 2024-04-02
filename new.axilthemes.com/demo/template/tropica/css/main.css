@@ -5253,3 +5253,170 @@ article.blog-item .primary-btn {
 .row-mrgin-top-bottom{
   margin: 1vw auto;
 }
+/* ========================================================================== */
+html {
+    scroll-behavior: smooth
+}
+
+.clone-center{
+  height: 15%;
+}
+
+.box-content p{
+  color: white;
+}
+
+.box {
+  height: 30vw;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.iteem {
+  padding: 15px;
+}
+.box img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s;
+  margin: auto;
+}
+
+.box .box-content {
+  width: 100%;
+  height: 100%;
+  background-color: #000000b8;
+  color: white;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  left: 0;
+  padding: 30px;
+  transform: scale(0) rotate(-180deg);
+  opacity: 1;
+  transition: all 0.4s;
+}
+.box:hover .box-content {
+  transform: scale(1) rotate(0deg);
+  opacity: 9;
+  transition-delay: 0.2s;
+  margin: auto;
+}
+.box .box-content1 {
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 30px 10px;
+  background-color: #00000075;
+  height: 100%;
+  padding-top: 1% 0%;
+}
+
+.box-content1 h2, p{
+  color: white;
+}
+
+.box:hover .box-content1 {
+  opacity: 0;
+}
+.logoo {
+  width: 100%;
+}
+.btn {
+  border-radius: 150px;
+  padding: 6px 25px;
+}
+.mg-top {
+  margin-top: 0%;
+}
+.box ul {
+  list-style-type: none;
+}
+.box li {
+  background: #2cb7c1;
+  padding: 7px 15px;
+  color: white;
+  cursor: pointer;
+}
+.box a {
+  text-decoration: none;
+  color: white;
+}
+.top-btn ul {
+  list-style-type: none;
+  padding: 10px 1px;
+}
+.top-btn li {
+  color: white;
+  float: left;
+  margin: 2px 25px;
+}
+.fre-wrap .iteem,
+.web-wrap .iteem,
+.mob-wrap .iteem {
+  display: none;
+}
+.fre-wrap .free-iteam,
+.web-wrap .web-iteam,
+.mob-wrap .Mobile-iteam {
+  display: block !important;
+}
+ul.tabs {
+  margin: 0 0 20px;
+  padding: 0px;
+  list-style: none;
+}
+ul.tabs li {
+  background: #832fb3;
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 25px;
+  cursor: pointer;
+  /* border: 2px solid #9a28b0; */
+}
+ul.tabs li:hover {
+  color: white;
+  background: #b047ec;
+}
+.mrg {
+  margin-top: 70px;
+}
+
+.tab-content {
+  display: none;
+  padding: 15px;
+}
+.tab-content.current {
+  display: contents;
+}
+@media only screen and (max-width: 600px) {
+  ul.tabs li {
+    width: 30%;
+  }
+
+  .iteem{
+    width: 100%;
+  }
+
+  .box{
+    height: 98vw;
+  }
+
+  .box-content p{
+    margin: 2vw auto;
+  }
+
+  .box-content1 h2, p{
+    font-size: 12vw;
+  }
+
+  .box-content1 p{
+    font-size: 5vw;
+    margin: 10vw auto;
+    letter-spacing: 2px;
+  }
+}
+
