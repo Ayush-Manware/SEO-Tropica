@@ -414,7 +414,7 @@ Date Created: January 29, 2018
 
 .clone-card p{
   padding: 0vw 2vw;
-  color: white;
+  /* color: white; */
   text-align: center;
   letter-spacing: 2px;
 }
@@ -5315,7 +5315,8 @@ html {
   padding-top: 1% 0%;
 }
 
-.box-content1 h2, p{
+.box-content1 h2,
+.box-content1 p{
   color: white;
 }
 
@@ -5409,7 +5410,7 @@ ul.tabs li:hover {
     margin: 2vw auto;
   }
 
-  .box-content1 h2, p{
+  .box-content1 h2{
     font-size: 12vw;
   }
 
