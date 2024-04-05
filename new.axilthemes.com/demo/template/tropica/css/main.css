@@ -750,6 +750,16 @@ button,
   color: #ffffff;
 }
 
+.c-pinterest i {
+  color: #94b2c3;
+}
+.c-pinterest:hover {
+  background-color: #638ea5;
+}
+.c-pinterest:hover i {
+  color: #ffffff;
+}
+
 .b-linkedin {
   background-color: #0677b4;
 }
