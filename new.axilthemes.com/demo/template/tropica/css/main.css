@@ -5274,10 +5274,11 @@ html {
 
 .box-content p{
   color: white;
+  margin: 5vw auto;
 }
 
 .box {
-  height: 30vw;
+  height: 26vw;
   padding: 0;
   overflow: hidden;
   position: relative;
