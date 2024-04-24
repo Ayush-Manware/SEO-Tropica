@@ -228,6 +228,16 @@ Date Created: January 29, 2018
 /* -- Basic Styling
 ----------------------------------- -- */
 
+.Home-Image{
+  width: 100%;
+}
+
+.image-container-home{
+  margin: 2vw auto;
+  border: 1px solid red;
+  padding: 8vw;
+}
+
 .bold{
   font-weight: 800;
 }
@@ -2386,7 +2396,8 @@ input[type=file] {
 .ip-banner .content {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, rgba(92, 129, 250, 0.7), rgba(57, 168, 254, 0.7));
+  /* background-image: url('../images/web-development-process/Purple\ And\ Yellow\ Illustrative\ 3d\ Website\ Design\ &\ Development\ Facebook\ Ad.png'); */
+  /* background-image: linear-gradient(to right, rgba(92, 129, 250, 0.7), rgba(57, 168, 254, 0.7)); */
   background-repeat: repeat-x;
 }
 .ip-banner .content h1 {
